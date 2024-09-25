@@ -23,7 +23,7 @@
 
 ## 사용 방법
 
-### 1. `ToastContainer`를 import 하여 toast를 사용할 컴포넌트에서 `<ToastContainer/ >`형태로 실행 해준다.
+### 1. `ToastContainer`를 import 하여 toast를 사용할 컴포넌트에서 `<ToastContainer/ >`형태로 실행 합니다.
 
 ### 2. `toast`를 import 하여 `toast.alert(내용, 옵션)`, `toast.info(내용, 옵션)`,
 
@@ -37,7 +37,7 @@ toast.confirm(내용).then(isConfirm => {
 })
 ```
 
-### 와 같은 형식으로 사용한다.
+### 와 같은 형식으로 사용합니다.
 
 - ### 기본 alert
 
@@ -95,7 +95,7 @@ toast.confirm(메세지 내용, 옵션)
 #### ex) `<ToastContainer position="t-r" time={5000} />`<br/>
 
 - ##### time(ms) 후 알림이 사라집니다.
-- ##### isFold true 시 3개까지 스택이 쌓이고, false 시 스택이 쌓이지 않고 나열됩니다.
+- ##### isFold를 props로 내려줄 시 3개까지 스택이 쌓입니다.
 
 ### 부분 설정
 
